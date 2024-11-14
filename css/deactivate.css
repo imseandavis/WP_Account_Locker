@@ -1,0 +1,35 @@
+#account-locker-deactivate-modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.account-locker-modal-content {
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    border-radius: 3px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.account-locker-modal-content h2 {
+    margin-top: 0;
+}
+
+.account-locker-modal-footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.account-locker-modal-footer .button {
+    margin-left: 10px;
+} 

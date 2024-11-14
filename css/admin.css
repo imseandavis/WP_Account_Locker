@@ -1,0 +1,73 @@
+.account-locked {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+.account-unlocked {
+    color: #46b450;
+    font-weight: 600;
+}
+
+.users-php .subsubsub .locked a {
+    color: #dc3232;
+}
+
+.users-php .subsubsub .unlocked a {
+    color: #46b450;
+}
+
+.settings_page_general #account_locker_message {
+    min-width: 350px;
+}
+
+.settings_page_general .account_locker_section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccd0d4;
+}
+
+.notice.inline {
+    margin: 15px 0;
+    padding: 8px 12px;
+}
+
+.profile-php .notice.inline {
+    max-width: 800px;
+}
+
+/* Status filter styles */
+.users-php .subsubsub .active-accounts {
+    color: #46b450;
+}
+
+.users-php .subsubsub .active-accounts.current {
+    color: #46b450;
+    font-weight: 600;
+}
+
+.users-php .subsubsub .locked-accounts {
+    color: #dc3232;
+}
+
+.users-php .subsubsub .locked-accounts.current {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+.users-php .subsubsub .count {
+    color: inherit;
+    opacity: 0.8;
+}
+
+/* Activity Log Styles */
+.users_page_account-lock-activity .widefat {
+    margin-top: 20px;
+}
+
+.users_page_account-lock-activity .widefat th {
+    font-weight: 600;
+}
+
+.users_page_account-lock-activity .widefat td {
+    vertical-align: middle;
+} 
