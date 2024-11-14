@@ -121,7 +121,6 @@
 .users_page_account-lock-activity .sorting-indicator:before {
     content: "\f142";
     font: normal 20px/1 dashicons;
-    speak: none;
     display: inline-block;
     padding: 0;
     top: -4px;
