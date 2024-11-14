@@ -1,15 +1,18 @@
 <?php
 /*
-Plugin Name: Account Locker
-Description: Allows administrators to lock and unlock user accounts
-Version: 1.0.9
-Author: Sean Davis
-Text Domain: account-locker
-Domain Path: /languages
-Requires at least: 6.7
-Requires PHP: 7.4
-License: GPL v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* @package    account-locker
+* @author     Sean Davis 2024
+* @link       https://seanasaservcice.com
+*
+* Plugin Name: Account Locker
+* Description: Allows administrators to lock and unlock user accounts
+* Version: 1.1.1
+* Author: Sean Davis
+* Text Domain: account-locker
+* Domain Path: /languages/
+* Tested up to: 6.7
+* License: GPL v2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Prevent direct access

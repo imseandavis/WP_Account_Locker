@@ -122,3 +122,23 @@ Initial release
 ### Enhanced
 - Bulk action reliability
 - Session management
+
+## [1.1.1] - 2024-02-14
+
+### Added
+- Enhanced activity log interface
+- Performed By filter in activity log
+- Sort indicators for all columns
+- Responsive design improvements
+- Mobile-friendly adjustments
+
+### Changed
+- Reduced pagination to 15 items per page
+- Improved filter layout and usability
+- Enhanced table styling
+- Better sort indicator visibility
+
+### Fixed
+- Activity log critical error
+- Filter handling in activity log
+- Sort functionality issues

@@ -60,14 +60,149 @@
 }
 
 /* Activity Log Styles */
-.users_page_account-lock-activity .widefat {
-    margin-top: 20px;
+.users_page_account-lock-activity .tablenav {
+    margin: 20px 0;
+    height: auto;
+    min-height: 35px;
 }
 
-.users_page_account-lock-activity .widefat th {
-    font-weight: 600;
+.users_page_account-lock-activity .tablenav.top {
+    margin-bottom: 15px;
 }
 
-.users_page_account-lock-activity .widefat td {
+.users_page_account-lock-activity select,
+.users_page_account-lock-activity input[type="date"] {
+    margin-right: 8px;
     vertical-align: middle;
+}
+
+.users_page_account-lock-activity select {
+    max-width: 200px;
+}
+
+.users_page_account-lock-activity input[type="date"] {
+    width: 130px;
+}
+
+/* Table Styles */
+.users_page_account-lock-activity .widefat {
+    margin-top: 15px;
+}
+
+.users_page_account-lock-activity .sortable {
+    position: relative;
+    padding: 8px;
+}
+
+.users_page_account-lock-activity .sort-column {
+    display: block;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    color: #23282d;
+}
+
+.users_page_account-lock-activity .sorting-indicator {
+    display: none;
+    width: 10px;
+    height: 4px;
+    margin-top: 8px;
+    margin-left: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.users_page_account-lock-activity .sortable:hover .sorting-indicator,
+.users_page_account-lock-activity .sorted .sorting-indicator {
+    display: block;
+}
+
+.users_page_account-lock-activity .sorting-indicator:before {
+    content: "\f142";
+    font: normal 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 0;
+    top: -4px;
+    left: -8px;
+    color: #444;
+    position: relative;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+    color: #72777c;
+}
+
+.users_page_account-lock-activity .sorted.asc .sorting-indicator:before {
+    content: "\f142";
+}
+
+.users_page_account-lock-activity .sorted.desc .sorting-indicator:before {
+    content: "\f140";
+}
+
+/* Pagination Styles */
+.users_page_account-lock-activity .tablenav-pages {
+    float: right;
+    margin: 0 0 9px;
+    height: auto;
+}
+
+.users_page_account-lock-activity .tablenav-pages .pagination-links {
+    margin-left: 10px;
+}
+
+.users_page_account-lock-activity .tablenav-pages a,
+.users_page_account-lock-activity .tablenav-pages span.current {
+    display: inline-block;
+    min-width: 28px;
+    padding: 0 5px;
+    margin: 0 1px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.users_page_account-lock-activity .tablenav-pages .current {
+    border-color: #999;
+    background: #e5e5e5;
+    color: #32373c;
+}
+
+/* Filter Button Styles */
+.users_page_account-lock-activity .button {
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+/* Empty State Style */
+.users_page_account-lock-activity td.column-empty {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 782px) {
+    .users_page_account-lock-activity .tablenav select,
+    .users_page_account-lock-activity .tablenav input[type="date"] {
+        display: block;
+        margin-bottom: 8px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .users_page_account-lock-activity .button {
+        display: block;
+        margin: 4px 0;
+        width: 100%;
+    }
+
+    .users_page_account-lock-activity .tablenav-pages {
+        float: none;
+        margin: 15px 0;
+        text-align: center;
+    }
 } 
